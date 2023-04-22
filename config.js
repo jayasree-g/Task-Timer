@@ -1,8 +1,8 @@
 module.exports = {
   db: {
     host: 'localhost',
-    user: 'root',
-    password: 'MySQLAssignment',
-    database: 'assignment',
+    user: 'your_mysql_username',
+    password: 'your_mysql_password',
+    database: 'your_database_name',
   },
 };
