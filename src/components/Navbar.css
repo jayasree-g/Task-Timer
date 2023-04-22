@@ -1,0 +1,47 @@
+#header{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: 15px;
+    align-items: center;
+  }
+  #home, #mycalendar{
+    text-decoration: none;
+    color: #8c8d91;
+    margin-right: 30px;
+    line-height: 50px;
+  }
+  #img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  #widgets{
+    background-color: #ffffff;
+    color: #8c8d91;
+    border: none;
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+  }
+  .w{
+    display: none;
+    position: absolute;
+  }
+  .w a{
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+  }
+  #widgets:hover + .w{
+      display: block;
+      background-color: #e8e8e8;
+  }
+  .w:hover {
+    display: block;
+    background-color: #e8e8e8;
+  }
+  

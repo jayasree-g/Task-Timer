@@ -1,0 +1,84 @@
+#page{
+    display: block;
+    width: 85%;
+}
+#lower{
+    margin-top: 15px;
+    text-align: left;
+    margin-left: 30px;
+    color: #5f5ec6;
+}
+#outer{
+    border: 2px solid rgb(195, 192, 192);
+    width: 100%;
+    height: 12%;
+    margin: 30px 30px 0px 10px;
+    box-shadow: 1px 2px rgb(183, 182, 182);
+    display: flex;
+    align-items: center;
+}
+#inner{
+    border: 2px solid rgb(195, 192, 192);
+    width: 600px;
+    height: 50px;
+    margin: 10px 10px 10px;
+    box-shadow: 1px 2px rgb(183, 182, 182);
+}
+::placeholder {
+    color: #999;
+    padding-left: 20px;
+}
+input[type="text"]{
+    color: #5c5656;
+}
+#start{
+    height: 35px;
+    width: 80px;
+    background-color: #5655c6;
+    color: white;
+    border: none;
+}
+#timer{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+#line{
+    border: 1px solid #dbdbdb;
+    height: 70%;
+    margin-left: 350px;
+}
+#today{
+    border: 2px solid #5f5ec6;
+    height: 60px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+}
+#today h6{
+    padding: 15px 15px;
+    color: #747577;
+}
+#task-box{
+    display: flex;
+    border: 2px solid #5f5ec6;
+    height: 60px;
+    border-width: 0px 2px 2px 2px;
+    padding-top: 18px;
+    padding-left: 10px;
+}
+#timer-tasks{
+    margin-left: auto;
+    margin-right: 20px;
+}
+#play{
+    border: none;
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 18px;
+    align-self: center;
+}
+#det{
+    color: black;
+    border: none;
+    background-color: white;
+}
